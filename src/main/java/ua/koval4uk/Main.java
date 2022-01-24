@@ -22,7 +22,6 @@ public class Main {
         Pointer result = libUapki.process("{\"method\":\"VERSION\"}");
         String ret = result.getString(0);
         System.out.println("Result: " + ret);
-
     }
 
 }
